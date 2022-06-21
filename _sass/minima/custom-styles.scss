@@ -14,3 +14,19 @@
     //background-attachment: scroll;
   //}
 //}
+
+.post-end {
+	border-bottom: 1px solid rgba(0,0,0,.08);
+	padding-bottom: 30px;
+}
+
+a.post-link {
+	font-size: 24px;
+	font-weight:bold;
+	color: #424242;
+}
+
+a.post-link:hover {
+	color: #2a7ae2;
+
+}

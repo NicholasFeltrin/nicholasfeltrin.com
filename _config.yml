@@ -39,6 +39,18 @@ minima:
 
 header_pages:
   - tutorials.markdown
+  - donate.markdown
+  - info.markdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      categories: posts
+      permalink: /:categories
 
 # Exclude from processing.
 # The following items will not be processed, by default.
