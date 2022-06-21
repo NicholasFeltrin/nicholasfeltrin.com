@@ -23,7 +23,7 @@ author:
   name: Nicholas Feltrin
   email: "me@nicholasfeltrin.com"
 
-url: "https://nicholasfeltrin.com" # the base hostname & protocol for your site, e.g. http://example.com
+home: "https://nicholasfeltrin.com" # the base hostname & protocol for your site, e.g. http://example.com
 description: >- 
   Hey I'm Nicholas Feltrin a senior high school student interested in IT.
 
