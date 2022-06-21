@@ -7,6 +7,14 @@
 
     {%- include header.html -%}
 
+    {% if page.layout == "home" %}
+      <div class="parallax">
+	<h1 style="text-align: center;padding-top: 300px; color: white">GNU/Linux • Programming • Automation</h1>
+      </div>
+    {% endif %}
+    
+
+
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}

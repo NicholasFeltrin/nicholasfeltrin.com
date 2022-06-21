@@ -321,4 +321,6 @@ table td { border: 1px solid #e8e8e8; }
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
+.parallax { background-image: url("/assets/wallpaper.png"); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; min-height: 800px; }
+
 /*# sourceMappingURL=style.css.map */

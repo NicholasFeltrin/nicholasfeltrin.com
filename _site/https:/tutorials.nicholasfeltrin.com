@@ -3,27 +3,27 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>About | Your awesome title</title>
+<title>Tutorials | Nicholas Feltrin</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="About" />
+<meta property="og:title" content="Tutorials" />
 <meta name="author" content="Nicholas Feltrin" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/about/" />
-<meta property="og:url" content="http://localhost:4000/about/" />
-<meta property="og:site_name" content="Your awesome title" />
+<meta name="description" content="Hey I’m Nicholas Feltrin a senior high school student interested in IT." />
+<meta property="og:description" content="Hey I’m Nicholas Feltrin a senior high school student interested in IT." />
+<link rel="canonical" href="http://localhost:4000/https:/tutorials.nicholasfeltrin.com" />
+<meta property="og:url" content="http://localhost:4000/https:/tutorials.nicholasfeltrin.com" />
+<meta property="og:site_name" content="Nicholas Feltrin" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About" />
+<meta property="twitter:title" content="Tutorials" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Nicholas Feltrin"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"About","name":"Your awesome title","url":"http://localhost:4000/about/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Nicholas Feltrin"},"description":"Hey I’m Nicholas Feltrin a senior high school student interested in IT.","headline":"Tutorials","url":"http://localhost:4000/https:/tutorials.nicholasfeltrin.com"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Nicholas Feltrin" />
 </head>
 <body><header class="site-header">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Your awesome title</a><nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Nicholas Feltrin</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -33,15 +33,19 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+        <div class="trigger"><a class="page-link" href="/https:/tutorials.nicholasfeltrin.com">Tutorials</a></div>
       </nav></div>
 </header>
-<main class="page-content" aria-label="Content">
+
+    
+
+
+    <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title">Tutorials</h1>
   </header>
 
   <div class="post-content">
@@ -81,11 +85,11 @@
         </ul>
       </div>
       <div class="footer-col">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+        <p>Hey I&#39;m Nicholas Feltrin a senior high school student interested in IT.</p>
       </div>
     </div>
 
-    <div class="social-links"><ul class="social-media-list"></ul>
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/NicholasFeltrin" target="_blank" title="NicholasFeltrin"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
 </div>
 
   </div>
