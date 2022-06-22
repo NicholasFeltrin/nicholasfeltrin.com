@@ -23,7 +23,7 @@ author:
   name: Nicholas Feltrin
   email: "me@nicholasfeltrin.com"
 
-home: "https://nicholasfeltrin.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nicholasfeltrin.com" # the base hostname & protocol for your site, e.g. http://example.com
 description: >- 
   Hey I'm Nicholas Feltrin a senior high school student interested in IT.
 
@@ -37,10 +37,21 @@ minima:
   social_links:
     github: NicholasFeltrin
 
+index: _home/index.md
 header_pages:
-  - tutorials.markdown
-  - donate.markdown
-  - info.markdown
+  - _tutorials/tutorials.md
+  - _home/donate.md
+  - _home/info.md
+
+collections: 
+  home:
+    output: true
+    premalink: /home/:path.html
+
+  tutorials:
+    output: true
+    permalink: /tutorials/:path.html
+
 
 defaults:
   -
@@ -49,8 +60,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      categories: posts
-      permalink: /:categories
 
 # Exclude from processing.
 # The following items will not be processed, by default.

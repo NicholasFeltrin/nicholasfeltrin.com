@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Info
+title: "Info"
 ---
 
 # Content is yet to be added

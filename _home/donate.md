@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Donate
+title: "Donate"
 ---
 
 # Content is yet to be added
