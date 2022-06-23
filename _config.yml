@@ -33,29 +33,40 @@ plugins:
 
 index: _home/index.md
 header_pages:
-  - _tutorials/tutorials.md
+  - _home/tutorials.md
   - _home/donate.md
   - _home/info.md
 
 collections: 
   home:
     output: true
+    post: false
     premalink: /home/:path.html
   tutorials:
     output: true
-    permalink: /tutorials/:path.html
+    post: true
+    permalink: /:categories/:title.html
   articles:
     output: true
-    permalink: /articles/:path.html
+    post: true
+    permalink: /:categories/:title.html
 
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
-      type: "posts"
+      type: "articles"
     values:
       layout: "post"
+      categories: article
+
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "post"
+      categories: tutorial
+    
 
 minima:
   skin: classic

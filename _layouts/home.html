@@ -8,14 +8,6 @@ layout: default
 
     {{ content }}
 
-
-    {% if site.paginate %}
-      {% assign posts = paginator.posts %}
-      {{ posts }}
-    {% else %}
-      {% assign posts =  site.collections | where: "label", "articles" | first  %}
-      {{ posts.docs[1].title }}
-    {% endif %}
   </div>
 
   <h2 style="font-weight:bold; padding-top: 50px">Recent Posts</h2>
@@ -24,23 +16,28 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title }}</h2>
   {%- endif -%}
   <ul class="post-list">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {%- for post in posts.docs -%}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-        </h3>
-	<h4>
-	  {{ post.description }}
-	</h4>
-	<div class="post-end"></div>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+    {%- for posts in site.collections -%}
+      {%- if posts.post == true -%}
+        {%- for post in posts.docs -%}
+          <li>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+  		{%- if post.categories -%}
+              	  <span class="post-meta">{{ post.categories | first | capitalize }}</span>
+  		{%- endif -%}
+            </h3>
+	    <h4>
+	      {{ post.description }}
+	    </h4>
+	    <div class="post-end"></div>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      {%- endif -%}
     {%- endfor -%}
   </ul>
 
