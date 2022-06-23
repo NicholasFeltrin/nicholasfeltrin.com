@@ -22,20 +22,14 @@ title: Nicholas Feltrin
 author:
   name: Nicholas Feltrin
   email: "me@nicholasfeltrin.com"
-
-url: "https://nicholasfeltrin.com" # the base hostname & protocol for your site, e.g. http://example.com
 description: >- 
   Hey I'm Nicholas Feltrin a senior high school student interested in IT.
 
-# Build settings
+url: "https://nicholasfeltrin.com"
+
 theme: minima
 plugins:
   - jekyll-feed
-
-minima:
-  skin: classic
-  social_links:
-    github: NicholasFeltrin
 
 index: _home/index.md
 header_pages:
@@ -47,10 +41,12 @@ collections:
   home:
     output: true
     premalink: /home/:path.html
-
   tutorials:
     output: true
     permalink: /tutorials/:path.html
+  articles:
+    output: true
+    permalink: /articles/:path.html
 
 
 defaults:
@@ -60,6 +56,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+minima:
+  skin: classic
+  social_links:
+    github: NicholasFeltrin
 
 # Exclude from processing.
 # The following items will not be processed, by default.

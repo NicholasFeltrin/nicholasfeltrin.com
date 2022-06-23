@@ -6,4 +6,4 @@ description: >-
 permalink: /posts/:categories/:title.html
 ---
 
-# Content is yet to be added
+# welcome
