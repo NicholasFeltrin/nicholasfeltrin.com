@@ -1,0 +1,57 @@
+/* Gruvbox theme ;) */
+body {
+  background-color: #282828;
+  color: #ebdbb2;
+  max-width: 900px;
+  margin: 5% auto auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fabd2f;
+}
+
+a {
+  color: #83a598;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #b8bb26;
+}
+
+pre {
+  background-color: #3c3836;
+  color: #a89984;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+code {
+  background-color: #504945;
+  color: #d3869b;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+blockquote {
+  background-color: #504945;
+  color: #a89984;
+  padding: 10px;
+  border-left: 4px solid #83a598;
+}
+
+/*
+button {
+  background-color: #83a598;
+  color: #282828;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b8bb26;
+}
+*/
